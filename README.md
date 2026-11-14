@@ -1,6 +1,6 @@
 # KaleidoRadio
 
-KaleidoRadio is a macOS media player written in Rust. Discover internet radio, browse local and remote media, and play YouTube or YouTube Music with audio-reactive visuals.
+KaleidoRadio is a media player for macOS and Windows written in Rust. Discover internet radio, browse local and remote media, and play YouTube or YouTube Music with audio-reactive visuals.
 
 ![KaleidoRadio app screenshot](KaleidoRadio.png)
 
@@ -11,6 +11,18 @@ KaleidoRadio is a macOS media player written in Rust. Discover internet radio, b
 - Browse YouTube videos and YouTube Music, choose video or audio playback, and download media to a chosen folder.
 - Tune audio with a 10-band equalizer, built-in presets, auto volume, gapless playback, and crossfade.
 - Switch between the built-in Kaleido visualizer and MilkDrop presets through projectM. Use the visualizer inline or in a separate window.
+
+## Download and install
+
+Choose a download from [KaleidoRadio v0.1.0](https://github.com/beatnik27/KaleidoRadio/releases/tag/v0.1.0).
+
+| Platform | Download | Installation |
+| --- | --- | --- |
+| macOS (Apple silicon) | [DMG](https://github.com/beatnik27/KaleidoRadio/releases/download/v0.1.0/KaleidoRadio-0.1.0-macos-arm64.dmg) | Open the disk image and drag **KaleidoRadio.app** into **Applications**. |
+| Windows (x64) | [Installer (.exe)](https://github.com/beatnik27/KaleidoRadio/releases/download/v0.1.0/KaleidoRadio-0.1.0-Windows-x64-Setup.exe) | Run the installer and follow the prompts. |
+| Windows (x64) | [Portable build (.zip)](https://github.com/beatnik27/KaleidoRadio/releases/download/v0.1.0/KaleidoRadio-0.1.0-windows-x64.zip) | Extract the entire archive, then launch KaleidoRadio from the extracted folder. |
+
+The macOS DMG includes FFmpeg, FFprobe, yt-dlp, Deno, projectM, and MilkDrop presets. The bundled MilkDrop engine requires macOS 26 or later. The app is ad hoc signed and has no Apple notarization, so macOS may block it on first launch.
 
 ## Build and run on macOS
 
