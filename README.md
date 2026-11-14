@@ -2,6 +2,8 @@
 
 KaleidoRadio is a macOS media player written in Rust. Discover internet radio, browse local and remote media, and play YouTube or YouTube Music with audio-reactive visuals.
 
+![KaleidoRadio app screenshot](KaleidoRadio.png)
+
 ## Features
 
 - Search Radio Browser, save stations to Favorites, and move through Discover results with Previous and Next.
